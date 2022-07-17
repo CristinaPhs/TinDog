@@ -136,7 +136,7 @@ p {
 
 /*MEDIA QUERIES*/
 @media (max-width: 1020px) {
-  #title {
+  #title .container-fluid {
     text-align: center;
   }
   
