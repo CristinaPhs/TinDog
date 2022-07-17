@@ -1,0 +1,147 @@
+body {
+  font-family: Montserrat, sans-serif;
+  text-align: center;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-weight: 900;
+}
+
+h2 {
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+h3 {
+  font-size: 1.5rem;
+}
+
+p {
+  color: #8F8F8F;
+}
+
+/*HEADINGS*/
+.heading {
+  color: #fff;
+  font-weight: 900;
+  font-size: 3.5rem;
+  line-height: 1.5;
+}
+
+/*CONTAINERS*/
+.container-fluid {
+  padding: 7% 15%;
+}
+
+/*SECTIONS*/
+.colored-section {
+  background-color: #FF4C68;
+  color: #fff;
+}
+
+.white-section {
+  background-color: #fff;
+}
+
+/*NAVBAR*/
+.navbar {
+  padding: 0 0 4.5rem;
+}
+
+.navbar-brand {
+  font-family: Ubuntu, sans-serif;
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+.nav-item {
+  font-size: 1.2rem;
+  font-weight: 100;
+  padding: 0 18px;
+}
+
+/*DOWNLOAD BUTTONS*/
+.download-button {
+  margin: 5% 3% 0 0;
+
+}
+
+/*TITLE SECTION*/
+#title .container-fluid {
+  padding: 3% 15% 7%;
+  text-align: left;
+}
+
+.img-phone {
+  position: absolute;
+  right: 25%;
+  transform: rotate(25deg);
+  width: 16%;
+}
+
+/*FEATURES*/
+#features {
+  position: relative;
+}
+
+.features-icon {
+  color: #EF8172;
+  margin: 5% 0 5%;
+}
+
+.features-icon:hover {
+  color: #FF4C68;
+}
+
+.feature-box {
+  padding: 5%;
+}
+
+#testimonials {
+  background-color: #EF8172;
+}
+
+.testimonial-img {
+  border-radius: 100%;
+  margin: 2%;
+  width: 10%;
+}
+
+#press {
+  background-color: #EF8172;
+}
+
+.press-logo {
+  width: 12%;
+  margin: 3% 2% 3%;
+}
+
+/*PRICING*/
+#pricing {
+  padding: 50px 150px 50px;
+}
+
+.pricing-div {
+  padding: 3% 0;
+}
+
+.pricing-column {
+  padding: 0 2%;
+}
+
+/*FOOTER*/
+.social-icon {
+  margin: 0 0.8% 2%;
+}
+
+/*MEDIA QUERIES*/
+@media (max-width: 1020px) {
+  #title {
+    text-align: center;
+  }
+  .img-phone {
+    position: static;
+    transform: rotate(0);
+    width: 50%;
+  }
+}
